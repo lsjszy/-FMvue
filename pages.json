@@ -1,0 +1,88 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    ,{
+            "path" : "pages/commun/commun",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/FM/FM",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/advisory/advisory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/me",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "心理FM",
+		"navigationBarBackgroundColor": "#87CEFA",
+		"backgroundColor": "#bcc0c9"
+	},
+	 "tabBar": {
+	        "list": [{
+	                "pagePath": "pages/index/index",
+	                "text": "首页",
+	                "iconPath": "static/icons/home.png",
+	                "selectedIconPath": "static/icons/home-active.png"
+	            },
+	            {
+	                "pagePath": "pages/commun/commun",
+	                "text": "社区",
+	                "iconPath": "static/icons/read.png",
+	                "selectedIconPath": "static/icons/read-active.png"
+	
+	            },
+	            {
+	                "pagePath": "pages/FM/FM",
+	                "text": "FM",
+	                "iconPath": "static/icons/fm.png",
+	                "selectedIconPath": "static/icons/fm-active.png"
+	
+	            },
+	            {
+	                "pagePath": "pages/advisory/advisory",
+	                "text": "心理咨询",
+	                "iconPath": "static/icons/message.png",
+	                "selectedIconPath": "static/icons/message-active.png"
+	
+	            },
+	            {
+	                "pagePath": "pages/me/me",
+	                "text": "我的",
+	                "iconPath": "static/icons/profile.png",
+	                "selectedIconPath": "static/icons/profile-active.png"
+	            }
+	        ]
+	    }
+}
